@@ -38,6 +38,13 @@ For each project, I included a description, the tech I used, and buttons to view
 The website itself is designed with smooth animations, transitions, and multi-color sections to make it feel modern and professional. I also used AJAX and JavaScript to make it dynamic, so interactions like project pop-ups, skill navigation, and smooth scrolling feel natural and engaging.
 I built this portfolio over 4 weeks under the mentorship of Neela Santosh at Codetech IT Solutions. It was an amazing learning experience — I got to practice not only my coding skills but also UI/UX design, interactivity, and real-world project organization.
 
+*OUTPUR :-*
+
+
+![Image](https://github.com/user-attachments/assets/950e2ca3-c6e0-4088-a440-3b689f49ca19)
+
+
+
 
 
 
