@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anubhav Sharma | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+<h2 class="logo">.Anubhav</h2>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+<section id="home" class="hero">
+
+<h1>Hello I'm <span>Anubhav Sharma</span></h1>
+
+<p class="typing"></p>
+
+
+<button onclick="scrollToSection('projects')">Explore Projects</button>
+</section>
+
+
+
+<section id="about" class="section">
+
+<h2>About Me</h2>
+
+<p>
+Hi! I'm <strong>Anubhav Sharma</strong>, a passionate Computer Science student specializing in Web Development, Artificial Intelligence, and Cross-Platform App Development. I enjoy creating intuitive and interactive user experiences, solving challenging problems, and building projects that make an impact.
+</p>
+
+<p>
+I have experience with full-stack development, mobile application development, AI-powered applications, and working with databases and cloud technologies. I love learning new technologies, contributing to open-source projects, and constantly improving my coding and design skills.
+</p>
+
+<p>
+In addition to technical skills, I have strong problem-solving abilities, a creative mindset, and an eye for clean UI/UX. My goal is to build applications that are not only functional but also engaging for users.
+</p>
+
+</section>
+
+
+
+<section id="skills" class="section">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<!-- Programming Languages -->
+<button onclick="openSkill('https://www.w3schools.com/python/')">Python</button>
+<button onclick="openSkill('https://www.w3schools.com/java/')">Java</button>
+<button onclick="openSkill('https://www.w3schools.com/js/')">JavaScript</button>
+<button onclick="openSkill('https://www.w3schools.com/cpp/')">C++</button>
+<button onclick="openSkill('https://www.w3schools.com/sql/')">SQL</button>
+
+<!-- Web Development -->
+<button onclick="openSkill('https://react.dev/')">React</button>
+<button onclick="openSkill('https://angular.io/')">Angular</button>
+<button onclick="openSkill('https://vuejs.org/')">Vue.js</button>
+<button onclick="openSkill('https://flutter.dev/')">Flutter</button>
+<button onclick="openSkill('https://nodejs.org/')">Node.js</button>
+<button onclick="openSkill('https://expressjs.com/')">Express.js</button>
+
+<!-- AI & Tools -->
+<button onclick="openSkill('https://www.tensorflow.org/')">TensorFlow</button>
+<button onclick="openSkill('https://pytorch.org/')">PyTorch</button>
+<button onclick="openSkill('https://www.mongodb.com/')">MongoDB</button>
+<button onclick="openSkill('https://firebase.google.com/')">Firebase</button>
+<button onclick="openSkill('https://git-scm.com/')">Git & GitHub</button>
+
+</div>
+
+</section>
+
+
+
+<section id="projects" class="section">
+
+<h2>Projects</h2>
+
+<div id="projectContainer" class="projects">
+    <section id="projects" class="section">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>FitFusion – AI Fitness App</h3>
+<p>
+FitFusion is an AI-powered fitness application that uses real-time pose detection
+to analyze workout movements and provide feedback. It also includes a progression
+tracker that monitors user performance and fitness improvements over time.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+
+<div class="project-card">
+<h3>Online Learning Platform</h3>
+<p>
+A full-stack online learning platform that allows students to access courses,
+upload documents, create flashcards, and interact with an AI chatbot. It also
+features a real-time collaborative document editor for shared learning.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+
+<div class="project-card">
+<h3>E-Commerce Website</h3>
+<p>
+A modern e-commerce web application with product listings, search functionality,
+shopping cart, and a secure checkout system. Designed with a responsive UI to
+provide a smooth shopping experience across devices.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+
+<div class="project-card">
+<h3>Swiggy Clone</h3>
+<p>
+A food delivery web application inspired by Swiggy. Users can browse restaurants,
+view menus, place food orders, and experience a clean and responsive interface
+similar to modern food delivery platforms.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+
+<div class="project-card">
+<h3>LeetCode Style Coding Platform</h3>
+<p>
+A coding practice platform where users can solve programming challenges,
+write and run code in the browser, and track their coding progress
+through a problem-solving dashboard.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+
+<div class="project-card">
+<h3>C++ Graphical Snake Game</h3>
+<p>
+A visually engaging Snake game developed in C++ using graphical libraries.
+The game features score tracking, increasing difficulty levels, and smooth
+gameplay mechanics.
+</p>
+<button onclick="window.open('https://github.com/')" class="but">View Project</button>
+</div>
+
+</div>
+
+</section>
+</div>
+
+</section>
+
+
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Anubhav Sharma</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
