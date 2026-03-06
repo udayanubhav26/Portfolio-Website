@@ -43,6 +43,8 @@ I built this portfolio over 4 weeks under the mentorship of Neela Santosh at Cod
 
 ![Image](https://github.com/user-attachments/assets/950e2ca3-c6e0-4088-a440-3b689f49ca19)
 
+![Image](https://github.com/user-attachments/assets/7338e43e-1e1b-4e58-83d8-e928895366f8)
+
 
 
 
